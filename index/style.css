@@ -10,11 +10,12 @@ body {
 }
 
 header {
-    background-color: black;
+    background-color: #111111;
     padding: 25px;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    
 }
 
 header img {
@@ -57,3 +58,43 @@ header nav {
 
 }
 
+.hero {
+    background-image: url(/imagens/pexels-jonathan-borba-2983101.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.hero h1 {
+    color: #ebebeb;
+    margin-bottom: 15px;
+    
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-shadow: ;
+}
+
+.cards {
+    display: inline-flex;
+    
+    
+}
+
+.cards img {
+    max-width: 250px;
+}
+
+.cardssolo {
+    background-color: bisque;
+    align-items: center;
+    padding: 15px;
+    justify-content: center;
+}
+
+.cardssolo p {
+    max-width: 150px;
+    text-align: center;
+    margin: 12px 50px 0;
+}
