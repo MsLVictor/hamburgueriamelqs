@@ -77,20 +77,30 @@ header nav {
 }
 
 .cards {
-    display: inline-flex;
     
-    
+    margin: 0 auto;
+    max-width: 1200px;
 }
 
-.cards img {
-    max-width: 250px;
+.cards-row {
+    display: flex;
+    flex-wrap: wrap;
 }
+
 
 .cardssolo {
+    margin-top: 10px ;
+    margin-left: 10px;
     background-color: bisque;
     align-items: center;
     padding: 15px;
     justify-content: center;
+    width: 250px;
+}
+
+.cardssolo img {
+    max-width: 100%;
+    
 }
 
 .cardssolo p {
